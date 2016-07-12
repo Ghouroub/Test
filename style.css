@@ -1,0 +1,85 @@
+header {
+	width: 100%;
+	margin-bottom: 50px;
+	background: gray;
+	overflow: hidden;
+}
+
+.logo {
+	float: right;
+	width: 300px;
+	height: 70px;
+	margin-top: 30px;
+}
+header #input {
+	float: left;
+	top: 20px;
+	width: 152px;
+	left: 10px;
+	color: white;
+	direction: rtl;
+}
+.menu nav {
+	float: left;
+}
+.menu nav ul {
+	list-style: none;
+	margin-top: 40px;
+}
+
+.menu ul li {
+	display: block;
+	float: left;
+	margin-left: 50px;
+}
+.menu nav ul li a {
+	text-decoration: none;
+	color: #3b3b3b;
+	font-size: 20px;
+	letter-spacing: .5px;
+	font-weight: bold;
+	font-family: "Aharoni";
+	color: white;
+}
+.imageContainer #pic1 {
+	width: 293px;
+	height: 355px;
+	float: right;
+	margin: 0 ;
+	padding:0 ;
+}
+#picF{
+background-image:url("images/images/pic1.JPG");
+width:293px;
+height:355px;
+float:right;
+}
+#picS{
+background-image:url("images/images/pic2.jpg");
+width:293px;
+height:355px;
+float:right;
+}
+#picT{
+background-image:url("images/images/pic3.jpg");
+width:293px;
+height:355px;
+float:right;
+}
+p {
+	direction: rtl;
+}
+.clearfix {
+	clear: both;
+}
+#text h1 {
+	font-size: 18px;
+	font-weight: bold;
+	direction: rtl;
+}
+#text {
+	color: white;
+	background-color: gray;
+	width: 248px;
+	
+}
